@@ -1,0 +1,14 @@
+body {
+  background-image: url('../images/background-grain.jpg');
+  background-size: cover;
+  background-repeat: repeat;
+}
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  background: url('../images/background-grain.jpg') repeat;
+  background-size: 300px;
+  opacity: 0.4;
+  z-index: -1;
+}
