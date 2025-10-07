@@ -1,7 +1,7 @@
 # Mini Hub ⚡
 
 A minimalist personal link hub — my own version of Linktree.  
-Built with **HTML** and **CSS**, featuring a monochrome “paper and ink” style.
+Built with **HTML**, **CSS** and a little bit of **JS** , featuring a monochrome “paper and ink” style.
 
 ---
 
