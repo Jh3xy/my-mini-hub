@@ -63,10 +63,11 @@ a{
   text-decoration: none;
 }
 h1{
-  font-weight: 700;
+  font-weight: 800;
   color: var(--clr-text);
   animation-delay: .5s;
   opacity: 0;
+  line-height: 1.8;
 }
 .card{
   text-align: center;
@@ -137,6 +138,7 @@ a.attribute:active{
 }
 .highlight{
   color: var(--clr-accent-900);
+  font-weight: 700;
 }
 
 
