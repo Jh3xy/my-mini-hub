@@ -11,7 +11,7 @@ html{
   --clr-bg: hsla(0, 0%, 100%, 1);
   --clr-text: hsla(0, 0%, 0%, 1);
   --clr-text-100: hsla(0, 0%, 0%, 0.8);
-  --clr-accent: hsla(36, 100%, 83%, 1);
+  --clr-accent: navajowhite;
   --clr-shadow: hsla(0, 0%, 0%, 0.1);
 }
 body {
@@ -22,6 +22,7 @@ body {
   font-family: 'Poppins', sans-serif;
   color: var(--clr-text);
   min-height: 100vh;
+/*  color: hsla(36, 100%, 83%, 1); */
 }
 body::before {
   content: "";
