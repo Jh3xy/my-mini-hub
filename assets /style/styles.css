@@ -13,7 +13,9 @@ html{
   --clr-text-100: hsla(0, 0%, 0%, 0.8);
   --clr-accent: hsla(36, 100%, 70%, 1);
   --clr-accent-900: hsla(36, 100%, 50%, 1);
-  --clr-shadow: hsla(0, 0%, 0%, 0.1);
+  --clr-shadow: hsla(0, 0%, 0%, 0.5);
+  
+  /* Coral is another good color theme here*/
 }
 body {
   /* Grain Backdrop */
@@ -90,7 +92,7 @@ p.status{
   overflow: hidden;
   white-space: nowrap; /* So text stays in one line */
   width: 0;
-  border-right: 2px solid var(--clr-accent-900);
+  border-right: 1px solid var(--clr-accent-900);
   animation-delay: 4s;
 }
 
@@ -105,20 +107,37 @@ p.status{
   box-shadow: 2px 2px 0 var(--clr-text);
   margin-bottom: 18px;
   background-color: var(--clr-bg);
-  transition: all 0.3s ease;
+  transition: all 0.4s ease;
   opacity: 0;
   animation-delay: 3s;
 }
 .box:hover{
   background-color: var(--clr-accent);
-  transform: scale(1.01);
+  transform: scale(1.1);
   box-shadow: 3px 3px 0 var(--clr-text);
 }
 .links a:last-child{
   margin-bottom: 4rem;
 }
 
-
+a.attribute{
+  margin: 2rem 0;
+  border: 1px solid var(--clr-text);
+  box-shadow: 3px 3px 0 var(--clr-shadow);
+  display: inline-block;
+  padding: .4rem 1rem;
+  text-decoration: underline;
+  font-style: italic;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+a.attribute:active{
+  transform: scale(0.7);
+  box-shadow: 1px 1px 0 var(--clr-shadow);
+}
+.highlight{
+  color: var(--clr-accent-900);
+}
 
 
 /*====== Animation Utility  Classes======*/
