@@ -17,6 +17,14 @@ html{
   
   /* Coral is another good color theme here*/
 }
+::selection {
+  background-color: var(--clr-accent);
+  color: var(--clr-bg);
+}
+::-moz-selection {
+  background-color: var(--clr-accent);
+  color: var(--clr-bg);
+}
 body {
   /* Grain Backdrop */
   background-image: url('../images/background-grain.jpg');
