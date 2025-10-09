@@ -12,13 +12,7 @@
   --clr-accent-900: hsla(36, 100%, 50%, 1);
   --clr-shadow: hsla(0, 0%, 0%, 0.5);
   
-  /*
-
-#FFFFFF
-#000000
-
-
-  Coral is another good color theme here*/
+  /* Coral is another good color theme here*/
 }
 html{
   font-size: 15px; /* for proper resizing*/
@@ -35,7 +29,6 @@ body {
   font-family: 'Poppins', sans-serif;
   color: var(--clr-text);
   min-height: 100vh;
-/*  color: hsla(36, 100%, 83%, 1); */
 }
 body::before {
   content: "";
@@ -95,7 +88,7 @@ body.dark{
   0%{width: 0%;}
   100%{width: 100%; border-right-color: transparent;}
 }
-/* Cursor Blinking */
+/* "Cursor" Blinking */
 @keyframes blinker{
   6%{border-right-width: 2px;}
   20%{border-color: transparent;} 
@@ -103,4 +96,11 @@ body.dark{
   60%{border-color: transparent;}
   80%{border-color: transparent;}
 }
+
+
+
+
+
+
+
 
