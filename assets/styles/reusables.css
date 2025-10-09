@@ -12,7 +12,13 @@
   --clr-accent-900: hsla(36, 100%, 50%, 1);
   --clr-shadow: hsla(0, 0%, 0%, 0.5);
   
-  /* Coral is another good color theme here*/
+  /*
+
+#FFFFFF
+#000000
+
+
+  Coral is another good color theme here*/
 }
 html{
   font-size: 15px; /* for proper resizing*/
