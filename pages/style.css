@@ -10,6 +10,7 @@ img.illustration{
 h1{
  font-weight: 800;
  font-size: 3rem;
+ text-wrap: nowrap;
 }
 .desc{
  margin: 1.6rem;
